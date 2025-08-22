@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: khaki;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    /* gap: 1px; */
+    width: 400px;
+    height: 400px;
+}
+
+.square{
+    background-color: #ccc;
+    border: 0.2px solid #999;
+      /* aspect-ratio: 1 / 1; */
+}
