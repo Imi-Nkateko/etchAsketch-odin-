@@ -7,19 +7,19 @@ body {
     justify-content: center; 
     align-items: center; 
     height: 100vh; 
+    flex-direction: column;
 }
 
 .gridContainer {
     display: grid;
-    grid-template-columns: repeat(16, 1fr);
-    grid-template-rows: repeat(16, 1fr);
-    /* gap: 1px; */
     width: 400px;
     height: 400px;
+    margin-top: 10px;
+    max-width: 100%;
 }
 
 .square{
     background-color: #ccc;
-    border: 0.2px solid #999;
-      /* aspect-ratio: 1 / 1; */
+    border: 0.2px solid #99999931;
+      aspect-ratio: 1 / 1;
 }
